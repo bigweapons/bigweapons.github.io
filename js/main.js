@@ -12,21 +12,20 @@ const projectContent = document.querySelector('#project-content')
 const smallContent = document.querySelector('#small-content')
 
 about.addEventListener('click', () => {
-  const aboutBox = new WinBox({
-    title: 'sir i need big weapons',
-    // modal: true,
+  const contactBox = new WinBox({
+    title: 'co',
     width: '400px',
     height: '400px',
     top: 50,
     right: 50,
     bottom: 50,
-    left: 50,
-    mount: aboutContent,
+    left: 60,
+    mount: contactContent,
     onfocus: function () {
       this.setBackground('#00aa00')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('#444')
     },
   })
 })
@@ -52,39 +51,39 @@ contact.addEventListener('click', () => {
 
 // edit contain 3
 project.addEventListener('click', () => {
-  const ProjectBox = new WinBox({
-    title: 'q',
+  const contactBox = new WinBox({
+    title: 'co',
     width: '400px',
     height: '400px',
-    top: 150,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 50,
-    mount: projectContent,
+    left: 60,
+    mount: contactContent,
     onfocus: function () {
       this.setBackground('#00aa00')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('#444')
     },
   })
 })
 
 small.addEventListener('click', () => {
-  const SmallBox = new WinBox({
-    title: 'w',
+  const contactBox = new WinBox({
+    title: 'co',
     width: '400px',
     height: '400px',
-    top: 80,
+    top: 50,
     right: 50,
     bottom: 50,
-    left: 50,
-    mount: smallContent,
+    left: 60,
+    mount: contactContent,
     onfocus: function () {
       this.setBackground('#00aa00')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('#444')
     },
   })
 })
