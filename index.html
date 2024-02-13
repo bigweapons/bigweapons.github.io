@@ -4,38 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <title>nie</title>
+    <title>Basen w Lubomierzu</title>
     <link rel="stylesheet" href="css/webslides.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Dodany gradient do całej strony */
+        body {
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #fff;
+        }
+
+        p {
+            color: #eee;
+        }
+
+        /* Animacje i gradient dla nagłówka sekcji */
+        h2.aligncenter {
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            color: #000;
+            background-image: linear-gradient(to right, #3498db, #2ecc71);
+            background-size: 200% auto;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: shine 5s linear infinite;
+        }
+
+        @keyframes shine {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        /* Efekt zoomIn dla przycisku "Dalej" */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Efekt hover dla zdjęć */
+        .flexblock li img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .flexblock li img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Efekt hover dla kosztów */
+        .flexblock.features h2.aligncenter:hover {
+            color: #3498db;
+        }
+    </style>
 </head>
 <body>
     <main role="main">
         <article id="webslides" class="horizontal">
             <section>
-                <span class="background" style="background-image: url('images/4.jpg');background-size: cover;background-position:top;"></span>
+                <span class="background" style="background-image: url('images/black.png');background-size: cover;background-position:top;"></span>
                 <div class="wrap">
-                    <h1><strong>0_0</strong></h1>
+                    <h1><strong>Basen w Lubomierzu</strong></h1>
                     <p class="text-intro">
-                        <strong></strong> Basen w Lubomierzu <strong></strong><br>
+                        <strong>Zapraszamy na stronę prezentującą</strong> odnowę basenu w Lubomierzu.
                     </p>
                     <a href="#slide=2" class="button zoomIn">
                         Dalej
                     </a>
                 </div>
             </section>
-            <section>
-                
+
+            <!-- Pozostałe sekcje... -->
                 </span> -->
                 <div class="wrap size-50 aligncenter">
                     <h2><strong>Odnowa Basenu</strong></h2>
                     <p class="text-intro">
-                        tak, odnowa basenu
                     </p>
                     <div class="bg-white shadow">
                         <ul class="flexblock reasons">
                             <li>
 							                    <p class="text-intro">
-                        Głowne Cele ~
+                        
                     </p>
                                 <h2></h2>
                                 <p>Czyszczenie i konserwacja</p>
@@ -59,7 +128,7 @@
                 <div class="wrap">
                     <div class="grid vertical-align">
                         <div class="column">
-                            <h3><strong>Lokalizacja Basenu (zdjęcie)</strong></h3>
+                            <h3><strong>Lokalizacja Basenu</strong></h3>
                             <p></p>
                         </div>
                         <div class="column">
@@ -70,74 +139,135 @@
             </section>
 
 
-            <section>
-                <div class="wrap">
-                    <h2></h2>
-                    <ul class="flexblock features">
-                        <li>
-                            <div>
-                                <h2 class="aligncenter">
-                                    Czyszczenie i konserwacja: zabrudzenia, pył i delikatne środki różne śmieci.
-                                </h2>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2 class="aligncenter">
-                                     Naprawa uszkodzeń: Wszystkie Widoczne uszkodzenia, takie jak pęknięcia, dziury lub złamane elementy 
-                                </h2>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <h2 class="aligncenter">
-                                    Malowanie i renowacja: Nadanie basenowi nowego życia, przemalowanie budynku farbą na zewnątrz
-                                </h2>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+    <section>
+        <div class="wrap">
+            <h2></h2>
+            <ul class="flexblock features">
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                           głowne cele: Czyszczenie i konserwacja
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Naprawa uszkodzeń
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Malowanie i renowacja
+                        </h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-
-       
-            <section>
-                <div class="wrap">
-                    <h2><strong>Odnowa Basenu</strong></h2>
+<section>
+    <div class="wrap">
+        <h2><strong></strong></h2>
+        <p class="text-intro">
+            
+        </p>
+        <div class="bg-white shadow">
+            <ul class="flexblock reasons">
+                <li>
+                    <img src="images/basen.jpg" alt="Zdjęcie 1" width="300" height="200">
                     <p class="text-intro">
-                        Prawdopodbny budżet
+                        
                     </p>
-                    <div class="bg-white shadow">
-                        <ul class="flexblock reasons">
-                            <li>
-							                    <p class="text-intro">
-                        Wydatki ~ 25480 polskich złotych
+                    <h2></h2>
+                    <p></p>
+                </li>
+
+                <li>
+                    <img src="images/basen2.jpg" alt="Zdjęcie 2" width="300" height="200">
+                    <p class="text-intro">
+                        
                     </p>
-                                <h2></h2>
-                                <p>Czyszczenie i konserwacja: 2580 polskich złotych</p>
-                            </li>
+                    <h2></h2>
+                    <p></p>
+                </li>
 
-                            <li>
-                                <h2>Naprawa uszkodzeń: 18900 polskich złotych</h2>
-                                <p> </p>
-                            </li>
-                            <li>
-                                <h2>Malowanie i renowacja: 4000 polskich złotych</h2>
-                                <p> </p>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-    </main>
-    <div class="footer">
+                <li>
+                    <img src="images/basen3.jpg" alt="Zdjęcie 3" width="300" height="200">
+                    <p class="text-intro">
+                        
+                    </p>
+                    <h2></h2>
+                    <p></p>
+                </li>
+            </ul>
+        </div>
     </div>
+</section>
+			    <section>
+        <div class="wrap">
+            <h2></h2>
+            <ul class="flexblock features">
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Podniesienie cen biletów basenu z 4zł (2012-2014 rok) na 23 zł
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Wybudowanie drogi dojazdowej do basenu.
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            W niedłuższym czasie niż 4 lata powiększenie basenu
+                        </h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+       
+    <section>
+        <div class="wrap">
+            <h2></h2>
+            <ul class="flexblock features">
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Czyszczenie i konserwacja: 2580 polskich złotych
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Naprawa uszkodzeń: 18900 polskich złotych
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h2 class="aligncenter">
+                            Malowanie i renowacja: 4000 polskich złotych
+                        </h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+            
+        </article>
+    </main>
+    <div class="footer"></div>
     <script src="js/webslides.js"></script>
-    <script>window.ws=new WebSlides();</script>
+    <script>window.ws = new WebSlides();</script>
 </body>
 </html>
